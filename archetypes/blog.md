@@ -2,7 +2,7 @@
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 draft: true
-toc: true
+toc: false
 categories: [blog]
 tags: []
 ---
