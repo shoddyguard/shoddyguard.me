@@ -11,7 +11,8 @@ markup:
   _merge: deep # Needed to fix a few quirks of the theme (e.g. proper dark/light mode)
 
 params:
-
+  keywords: "blog, reviews, technology, tech, devops, sysadmin" # for SEO
+  subtitle: "The ramblings of a degenerate madman"
   # Custom hash of details to easily reference when needed
   about_me:
     name: Steve
@@ -33,6 +34,20 @@ params:
   header:
     logo: img/avatar.png # path relative to the static directory
   # Configure the menu that appears at the top
+
+  # Configure the footer
+  footer:
+    since: 2024
+
+  # Configure social media links
+  social_media:
+    items:
+      - enabled: true
+        title: GitHub
+        icon: brand-github
+        link: 'https://github.com/shoddyguard'
+
+# Top bar configuration
 menu:
   main:
     - identifier: "posts"
@@ -43,6 +58,7 @@ menu:
       name: About
       pageRef: /pages/about
       weight: 20
+
 # Configure the right hand taxonomy menu
 taxonomies:
   category: "categories"
