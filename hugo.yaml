@@ -1,0 +1,50 @@
+baseURL: 'https://shoddyguard.me/'
+languageCode: 'en' # Should match whatever is in the i18n directory of either the theme or locally
+title: 'shoddyguard.me'
+theme: 'hugo-theme-tailwind'
+author: ShoddyGuard
+copyright: ShoddyGuard
+paginate: 10
+
+## Theme configuration
+markup:
+  _merge: deep # Needed to fix a few quirks of the theme (e.g. proper dark/light mode)
+
+params:
+
+  # Custom hash of details to easily reference when needed
+  about_me:
+    name: Steve
+    nickname: ShoddyGuard
+    location: Cambridge, UK
+    job_title: SysAdmin
+    employer: Redgate Software
+    employer_url: 'https://www.red-gate.com'
+    start_date: 2017
+
+  # The directory name where we'll store the content that we want to show up on the home page.
+  # This allows us to have pages that don't appear in the "feed" (e.g. about etc.)
+  contentTypeName: posts
+  # Disable reading time - as it stands this is an all or nothing feature of the theme and it feels weird to have it on pages like "about"
+  # If the theme later supports having this configurable on a per page basis then we can revisit.
+  showReadingTime: false
+
+  # Configure the header
+  header:
+    logo: img/avatar.png # path relative to the static directory
+  # Configure the menu that appears at the top
+menu:
+  main:
+    - identifier: "posts"
+      name: "Posts"
+      pageRef: "/posts"
+      weight: 10
+    - identifier: about
+      name: About
+      pageRef: /pages/about
+      weight: 20
+# Configure the right hand taxonomy menu
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  series: "series"
