@@ -6,7 +6,12 @@ toc: false
 
 👋
 
-My name is {{< param about_me.name >}} and I created little site as a tool to help me organise the chaos that is my brain.  
-I'm planning to use this site to document some of my projects, share tips and tricks I've picked up along the way, review some more niche products and to generally share things which I think are interesting.
+Usually these pages contain a whole spiel about the author and the purpose of the site etc etc, but I'm not really a fan of writing about myself 😅 (who is amirite?)  
+Besides, I don't think anyone is _really_ gonna get a good sense of who I am from just a few paragraphs on an about page anyways, I hope that my posts will do a much better job of that.  
 
-If this site can also help some other folks out too, then that'd be pretty neat.
+I'm also not entirely sure what the purpose of this site is yet, I'm just kinda YOLO-ing it and seeing where things go.
+
+With all that said, I think I'm a pretty chill dude and I'm always down to chat with like-minded folks, so feel free to reach out on any of the socials listed in the footer.
+
+Peace ✌️  
+{{< param about_me.name >}} ({{< param about_me.nickname >}})
