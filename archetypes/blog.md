@@ -7,6 +7,5 @@ categories: [blog]
 tags: []
 ---
 
-
-Lots of love,  
-{{< param about_me.nickname >}}
+  
+{{< param about_me.nickname >}} ✌️
