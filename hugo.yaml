@@ -50,6 +50,9 @@ params:
         title: Twitter
         icon: brand-twitter
         link: 'https://twitter.com/ShoddyGuard'
+      - enabled: true
+        icon: brand-mastodon
+        link: https://mastodon.social/@shoddyguard
 
 # Top bar configuration
 menu:
