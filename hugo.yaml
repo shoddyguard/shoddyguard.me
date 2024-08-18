@@ -12,7 +12,7 @@ markup:
 
 params:
   keywords: "blog, reviews, technology, tech, devops, sysadmin" # for SEO
-  subtitle: "The ramblings of a degenerate madman"
+  subtitle: "🤔"
   # Custom hash of details to easily reference when needed
   about_me:
     name: Steve
@@ -46,6 +46,10 @@ params:
         title: GitHub
         icon: brand-github
         link: 'https://github.com/shoddyguard'
+      - enabled: true
+        title: Twitter
+        icon: brand-twitter
+        link: 'https://twitter.com/ShoddyGuard'
 
 # Top bar configuration
 menu:
