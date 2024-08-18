@@ -1,6 +1,6 @@
 # shoddyguard.me
 
-This is the source code for my personal blog, [shoddyguard.me](https://shoddyguard.me).
+Here lies the code for [shoddyguard.me](https://shoddyguard.me).
 
 ## Adding icons
 
