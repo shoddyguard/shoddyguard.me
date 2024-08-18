@@ -1,0 +1,6 @@
+# Configuration for markdownlint
+
+# It doesn't seem like we can disable MD033 entirely only allow the HTML we're going to use
+MD033:
+  allowed_elements:
+    - cite
