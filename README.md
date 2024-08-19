@@ -6,7 +6,8 @@ Here lies the code for [shoddyguard.me](https://shoddyguard.me).
 
 Development should be done against the `dev` branch. Once you're happy with the changes, create a pull request to merge into `production`.
 
-This is done so that changes can be reviewed against the dev site before being deployed to the live site.
+This is done so that changes can be reviewed against the dev site before being deployed to the live site. This helps to catch any issues, especially with the theme, before they go live.
+(It's also handy for catching typos and other minor issues.)
 
 ### Prerequisites
 
