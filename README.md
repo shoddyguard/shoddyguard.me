@@ -27,7 +27,7 @@ There are several different Hugo archetypes available for creating new content d
 To create a new post, run the following command:
 
 ```bash
-hugo new content/posts/YYYY/MM/DD-post-title/index.md --kind <POST_KIND>
+hugo new content/posts/YYYY/MM/DD-post-title/index.md --kind posts/<POST_KIND>
 ```
 
 Where `<POST_KIND>` is one of the archetypes available in the `archetypes/posts/` directory.
